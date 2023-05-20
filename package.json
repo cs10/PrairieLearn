@@ -143,7 +143,7 @@
         "socket.io-redis": "^6.1.1",
         "streamifier": "^0.1.1",
         "tablesorter": "^2.31.3",
-        "tar": "^6.1.13",
+        "tar": "^6.1.15",
         "three": "^0.151.3",
         "tmp-promise": "^3.0.3",
         "tzientist": "^2.3.0",
