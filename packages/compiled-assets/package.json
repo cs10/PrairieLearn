@@ -21,7 +21,7 @@
     "express-static-gzip": "^2.1.7",
     "fs-extra": "^11.1.1",
     "globby": "^11.1.0",
-    "pretty-bytes": "^5.6.0",
+    "pretty-bytes": "^6.1.0",
     "tmp-promise": "^3.0.3"
   },
   "devDependencies": {
