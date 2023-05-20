@@ -149,7 +149,7 @@
         "tzientist": "^2.3.0",
         "unified": "^9.2.2",
         "unist-util-visit": "^2.0.3",
-        "unzipper": "^0.10.11",
+        "unzipper": "^0.10.14",
         "uuid": "^9.0.0",
         "winston": "^3.8.2",
         "winston-aws-cloudwatch": "^3.0.0",
