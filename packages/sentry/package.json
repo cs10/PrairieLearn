@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "@sentry/node": "^7.46.0",
-    "execa": "^5.1.1"
+    "execa": "^7.1.1"
   }
 }
