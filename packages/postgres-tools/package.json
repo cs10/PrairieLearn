@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@prairielearn/postgres": "workspace:^",
-    "@types/lodash": "^4.14.192",
+    "@types/lodash": "^4.14.195",
     "chalk": "^4.1.2",
     "diff": "^5.1.0",
     "fs-extra": "^11.1.1",
