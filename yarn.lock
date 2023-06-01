@@ -4034,7 +4034,7 @@ __metadata:
     streamifier: ^0.1.1
     tablesorter: ^2.31.3
     tar: ^6.1.13
-    three: ^0.151.3
+    three: ^0.153.0
     tmp: 0.2.1
     tmp-promise: ^3.0.3
     turbo: ^1.8.8
@@ -13902,10 +13902,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three@npm:^0.151.3":
-  version: 0.151.3
-  resolution: "three@npm:0.151.3"
-  checksum: cb6f10e4e409bbc4677d2128470c4e0bdb29f7879a77bc800180e30bda3527816c45b47ac10228f346cfc7501234457f63a87c1bdd5c3b6e2841d523e5d6eb79
+"three@npm:^0.153.0":
+  version: 0.153.0
+  resolution: "three@npm:0.153.0"
+  checksum: 68899ca90e048967a83866a1d54a9d28bba3532d228ede9e4c2a3b9bec347c31d8bb633eeaf7828397d2419cded8f57cf32f2a9c037a3587d45122e793ddc0c4
   languageName: node
   linkType: hard
 
