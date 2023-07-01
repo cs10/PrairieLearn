@@ -2582,7 +2582,7 @@ __metadata:
     express-static-gzip: ^2.1.7
     fs-extra: ^11.1.1
     get-port: ^5.1.1
-    globby: ^11.1.0
+    globby: ^13.2.0
     mocha: ^10.2.0
     node-fetch: ^2.6.9
     pretty-bytes: ^5.6.0
@@ -8206,6 +8206,19 @@ __metadata:
     merge2: ^1.4.1
     slash: ^4.0.0
   checksum: 93f06e02002cdf368f7e3d55bd59e7b00784c7cc8fe92c7ee5082cc7171ff6109fda45e1c97a80bb48bc811dedaf7843c7c9186f5f84bde4883ab630e13c43df
+  languageName: node
+  linkType: hard
+
+"globby@npm:^13.2.0":
+  version: 13.2.0
+  resolution: "globby@npm:13.2.0"
+  dependencies:
+    dir-glob: ^3.0.1
+    fast-glob: ^3.2.11
+    ignore: ^5.2.0
+    merge2: ^1.4.1
+    slash: ^4.0.0
+  checksum: 0a3dd786571788adef1c894f22112834cff5bbe061ae6e0a01c5118c39d44b3f1937ef1dae3f8b9bc24756eba84a0923e565b1ad9a4ec52831d7e2a04c035e75
   languageName: node
   linkType: hard
 
