@@ -3267,13 +3267,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dockerode@npm:^3.3.16":
-  version: 3.3.16
-  resolution: "@types/dockerode@npm:3.3.16"
+"@types/dockerode@npm:^3.3.19":
+  version: 3.3.19
+  resolution: "@types/dockerode@npm:3.3.19"
   dependencies:
     "@types/docker-modem": "*"
     "@types/node": "*"
-  checksum: ef316e330f8a1a137962d6000cac53bb25b5ba4300e38dd5842f32a6c58bec420278d61526c68865351c48c7e843c9aa45bcbca332737630a0c251e09390bf5b
+  checksum: 96d6cd3811a778d12382432413c3b0a935912c175ca939c77aaa0db2630c205daf14d5fa52e458a6fd44355c444f4fa1bd821e0364d4d0b6388061b5fe889431
   languageName: node
   linkType: hard
 
@@ -3880,7 +3880,7 @@ __metadata:
     "@types/chai-as-promised": ^7.1.5
     "@types/cheerio": ^0.22.31
     "@types/diff": ^5.0.3
-    "@types/dockerode": ^3.3.16
+    "@types/dockerode": ^3.3.19
     "@types/folder-hash": ^4.0.2
     "@types/fs-extra": ^11.0.1
     "@types/klaw": ^3.0.3
