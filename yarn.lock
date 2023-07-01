@@ -2640,7 +2640,7 @@ __metadata:
     "@prairielearn/tsconfig": "workspace:^"
     "@types/mocha": ^10.0.1
     "@types/node": ^18.15.11
-    aws-sdk: ^2.1354.0
+    aws-sdk: ^2.1409.0
     date-fns: ^2.29.3
     mocha: ^10.2.0
     ts-node: ^10.9.1
@@ -3909,7 +3909,7 @@ __metadata:
     async: ^3.2.4
     async-mutex: ^0.4.0
     async-stacktrace: 0.0.2
-    aws-sdk: ^2.1354.0
+    aws-sdk: ^2.1409.0
     backbone: ^1.4.1
     base64url: ^3.0.1
     better-ajv-errors: ^1.2.0
@@ -4514,7 +4514,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1354.0, aws-sdk@npm:^2.293.0, aws-sdk@npm:^2.80.0":
+"aws-sdk@npm:^2.1409.0":
+  version: 2.1409.0
+  resolution: "aws-sdk@npm:2.1409.0"
+  dependencies:
+    buffer: 4.9.2
+    events: 1.1.1
+    ieee754: 1.1.13
+    jmespath: 0.16.0
+    querystring: 0.2.0
+    sax: 1.2.1
+    url: 0.10.3
+    util: ^0.12.4
+    uuid: 8.0.0
+    xml2js: 0.5.0
+  checksum: f0046c83916e12b07b28699fd20aea11d78a3f41b1aa6add2ed645f92dec8b424640ef9439596545eba5f3d3a4254c08ce12b7d48504656dd37d2cc9b5ba9994
+  languageName: node
+  linkType: hard
+
+"aws-sdk@npm:^2.293.0, aws-sdk@npm:^2.80.0":
   version: 2.1356.0
   resolution: "aws-sdk@npm:2.1356.0"
   dependencies:
