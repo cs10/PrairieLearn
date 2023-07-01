@@ -3901,7 +3901,7 @@ __metadata:
     "@types/yargs": ^17.0.24
     "@typescript-eslint/eslint-plugin": ^5.57.1
     "@typescript-eslint/parser": ^5.57.1
-    ace-builds: ^1.16.0
+    ace-builds: ^1.23.1
     ace-code: ^1.16.0
     ajv: ^8.12.0
     ansi_up: ^5.2.1
@@ -4078,10 +4078,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ace-builds@npm:^1.16.0":
-  version: 1.16.0
-  resolution: "ace-builds@npm:1.16.0"
-  checksum: 1dca0aa438d6f1cb0204fafbdfb66500d8a68497a41b0566df74430b44b49595f6f8f892ef196383ab58f7ec6b3b513dbcd6f11bdad9e4170e84030a2e4a2ff4
+"ace-builds@npm:^1.23.1":
+  version: 1.23.1
+  resolution: "ace-builds@npm:1.23.1"
+  checksum: e0172764279dea7c01e8b6c40ec9c0ac8874931e5fba8ef9d9e513a1e670ea60683d153be25af22c2edee7a5f9712b5f22a502acf3a7699b536d3e8e196fa715
   languageName: node
   linkType: hard
 
