@@ -2524,10 +2524,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/semantic-conventions@npm:1.11.0, @opentelemetry/semantic-conventions@npm:^1.0.0, @opentelemetry/semantic-conventions@npm:^1.11.0":
+"@opentelemetry/semantic-conventions@npm:1.11.0, @opentelemetry/semantic-conventions@npm:^1.0.0":
   version: 1.11.0
   resolution: "@opentelemetry/semantic-conventions@npm:1.11.0"
   checksum: 310f2aad2a958b02ea2e661251e202989c662306e85a1c27bc99dec9c4d42fce5fc9b34bf21169276798acdae9d52af3b7ec19d8e5e9bb420fc145d0b901823c
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/semantic-conventions@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "@opentelemetry/semantic-conventions@npm:1.14.0"
+  checksum: 0d4f752035ac25d10cfcaf0e16f29bff8fa47877baff61dc4d047f9fe1e70f1459d02f5b70982c579db48584038e4fe263755b35ffa7254385604917337469f3
   languageName: node
   linkType: hard
 
@@ -2759,7 +2766,7 @@ __metadata:
     "@opentelemetry/sdk-node": ^0.37.0
     "@opentelemetry/sdk-trace-base": ^1.9.1
     "@opentelemetry/sdk-trace-node": ^1.9.1
-    "@opentelemetry/semantic-conventions": ^1.11.0
+    "@opentelemetry/semantic-conventions": ^1.14.0
     "@prairielearn/tsconfig": "workspace:^"
     "@types/chai": ^4.3.4
     "@types/mocha": ^10.0.1
