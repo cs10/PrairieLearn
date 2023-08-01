@@ -2603,7 +2603,7 @@ __metadata:
     "@prairielearn/aws-imds": "workspace:^"
     "@prairielearn/tsconfig": "*"
     "@types/fs-extra": ^11.0.1
-    "@types/lodash": ^4.14.194
+    "@types/lodash": ^4.14.196
     "@types/mocha": ^10.0.1
     "@types/node": ^18.14.2
     fs-extra: ^11.1.1
@@ -2794,7 +2794,7 @@ __metadata:
     "@prairielearn/tsconfig": "workspace:^"
     "@types/diff": ^5.0.3
     "@types/fs-extra": ^11.0.1
-    "@types/lodash": ^4.14.192
+    "@types/lodash": ^4.14.196
     "@types/node": ^18.15.11
     chalk: ^4.1.2
     copyfiles: ^2.4.1
@@ -2816,7 +2816,7 @@ __metadata:
     "@types/debug": ^4.1.7
     "@types/diff": ^5.0.3
     "@types/fs-extra": ^11.0.1
-    "@types/lodash": ^4.14.192
+    "@types/lodash": ^4.14.196
     "@types/mocha": ^10.0.1
     "@types/multipipe": ^3.0.1
     "@types/node": ^18.15.11
@@ -3402,10 +3402,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.192, @types/lodash@npm:^4.14.194":
-  version: 4.14.194
-  resolution: "@types/lodash@npm:4.14.194"
-  checksum: 113f34831c461469d91feca2dde737f88487732898b4d25e9eb23b087bb193985f864d1e1e0f3b777edc5022e460443588b6000a3b2348c966f72d17eedc35ea
+"@types/lodash@npm:^4.14.196":
+  version: 4.14.196
+  resolution: "@types/lodash@npm:4.14.196"
+  checksum: 201d17c3e62ae02a93c99ec78e024b2be9bd75564dd8fd8c26f6ac51a985ab280d28ce2688c3bcdfe785b0991cd9814edff19ee000234c7b45d9a697f09feb6a
   languageName: node
   linkType: hard
 
@@ -3884,7 +3884,7 @@ __metadata:
     "@types/folder-hash": ^4.0.2
     "@types/fs-extra": ^11.0.1
     "@types/klaw": ^3.0.3
-    "@types/lodash": ^4.14.192
+    "@types/lodash": ^4.14.196
     "@types/loopbench": ^1.2.1
     "@types/memorystream": ^0.3.1
     "@types/mime": ^3.0.1
