@@ -2305,17 +2305,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-redis@npm:^0.34.3":
-  version: 0.34.3
-  resolution: "@opentelemetry/instrumentation-redis@npm:0.34.3"
+"@opentelemetry/instrumentation-redis@npm:^0.35.0":
+  version: 0.35.0
+  resolution: "@opentelemetry/instrumentation-redis@npm:0.35.0"
   dependencies:
-    "@opentelemetry/instrumentation": ^0.35.1
-    "@opentelemetry/redis-common": ^0.35.0
+    "@opentelemetry/instrumentation": ^0.41.0
+    "@opentelemetry/redis-common": ^0.36.0
     "@opentelemetry/semantic-conventions": ^1.0.0
-    "@types/redis": 2.8.31
+    tslib: ^2.3.1
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: 6fea80fc1259b7bdcb7bfea55f3f157a9d689b80881e42825deee9a9b97a42ab3574384645b71e80009f9e75ab330b32ffa9bf77b3a9d8367f6cecbcf0547952
+  checksum: 0c31fa61c54d31e86e71f4aaecb53fa8a29b4fe306cf3ba7fa82e5eb42af49e481634df39df0e14029893f9db26622205a1bef21b9725278e8be564f5ce7915f
   languageName: node
   linkType: hard
 
@@ -2342,6 +2342,21 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
   checksum: 67a6efa878b39962f92924610546883f8535192e9c7638fd36a9493dee49e42c0349fe57291158d55b7ea1ec0a5d74bfe0d94eb2b781cc2a7804c7c5026064ee
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/instrumentation@npm:^0.41.0":
+  version: 0.41.1
+  resolution: "@opentelemetry/instrumentation@npm:0.41.1"
+  dependencies:
+    "@types/shimmer": ^1.0.2
+    import-in-the-middle: 1.4.1
+    require-in-the-middle: ^7.1.1
+    semver: ^7.5.1
+    shimmer: ^1.2.1
+  peerDependencies:
+    "@opentelemetry/api": ^1.3.0
+  checksum: 3b2b51cfd2ca645700097dd7c013ef1305b3c0aac8777c7a9bf3cbd07e538de7e88671ebb731924a8d77368b05a051b700ab90e12347af16ab54f6097b322142
   languageName: node
   linkType: hard
 
@@ -2428,10 +2443,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/redis-common@npm:^0.35.0":
-  version: 0.35.0
-  resolution: "@opentelemetry/redis-common@npm:0.35.0"
-  checksum: 9a59631d9a2cdf4c1b173619eb6a3ac912f9fa4f21debd77a3ca0a3b7c2adb7edcecb004cbaf79a339cd4ad07fe5f8887211ee88ccb22bf55f89825f0b8eba19
+"@opentelemetry/redis-common@npm:^0.36.0":
+  version: 0.36.0
+  resolution: "@opentelemetry/redis-common@npm:0.36.0"
+  dependencies:
+    tslib: ^2.3.1
+  checksum: 2ca1437530cd002124a1ef399e96e7493b305ff9172764b022113c2bf9b67ed15f3f63400e473d6e3def747f7bba578c9f824ccb019f6be13b7de4e079497cbb
   languageName: node
   linkType: hard
 
@@ -2752,7 +2769,7 @@ __metadata:
     "@opentelemetry/instrumentation-express": ^0.32.1
     "@opentelemetry/instrumentation-http": ^0.37.0
     "@opentelemetry/instrumentation-pg": ^0.35.0
-    "@opentelemetry/instrumentation-redis": ^0.34.3
+    "@opentelemetry/instrumentation-redis": ^0.35.0
     "@opentelemetry/resource-detector-aws": ^1.2.2
     "@opentelemetry/resources": ^1.11.0
     "@opentelemetry/sdk-metrics": ^1.11.0
@@ -3632,15 +3649,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/redis@npm:2.8.31":
-  version: 2.8.31
-  resolution: "@types/redis@npm:2.8.31"
-  dependencies:
-    "@types/node": "*"
-  checksum: 5f59a8e8f3b29b10891a1dd99d08da6d8f93fe8c73ce7d31c01494f0e62d6bd896a6afccd03c29d3b6f2fc50145ca468c7acc7cbb6323f40b53dbea3c6b40e7a
-  languageName: node
-  linkType: hard
-
 "@types/semver@npm:^6.0.0":
   version: 6.2.3
   resolution: "@types/semver@npm:6.2.3"
@@ -3662,6 +3670,13 @@ __metadata:
     "@types/mime": "*"
     "@types/node": "*"
   checksum: b6ac93d471fb0f53ddcac1f9b67572a09cd62806f7db5855244b28f6f421139626f24799392566e97d1ffc61b12f9de7f30380c39fcae3c8a161fe161d44edf2
+  languageName: node
+  linkType: hard
+
+"@types/shimmer@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@types/shimmer@npm:1.0.2"
+  checksum: 952b5555e914f632f3312a7b54e2b720b12ddce7373e1da58d25f25f32c07e5513afeb53bfce4256035a1205bbe81223fe8e47c160163de3e56fb93a3e0da42b
   languageName: node
   linkType: hard
 
@@ -4102,6 +4117,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"acorn-import-assertions@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "acorn-import-assertions@npm:1.9.0"
+  peerDependencies:
+    acorn: ^8
+  checksum: 944fb2659d0845c467066bdcda2e20c05abe3aaf11972116df457ce2627628a81764d800dd55031ba19de513ee0d43bb771bc679cc0eda66dc8b4fade143bc0c
+  languageName: node
+  linkType: hard
+
 "acorn-jsx@npm:^5.3.2":
   version: 5.3.2
   resolution: "acorn-jsx@npm:5.3.2"
@@ -4149,6 +4173,15 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.8.2":
+  version: 8.10.0
+  resolution: "acorn@npm:8.10.0"
+  bin:
+    acorn: bin/acorn
+  checksum: 538ba38af0cc9e5ef983aee196c4b8b4d87c0c94532334fa7e065b2c8a1f85863467bb774231aae91613fcda5e68740c15d97b1967ae3394d20faddddd8af61d
   languageName: node
   linkType: hard
 
@@ -5326,6 +5359,13 @@ __metadata:
   version: 3.8.0
   resolution: "ci-info@npm:3.8.0"
   checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
+  languageName: node
+  linkType: hard
+
+"cjs-module-lexer@npm:^1.2.2":
+  version: 1.2.3
+  resolution: "cjs-module-lexer@npm:1.2.3"
+  checksum: 5ea3cb867a9bb609b6d476cd86590d105f3cfd6514db38ff71f63992ab40939c2feb68967faa15a6d2b1f90daa6416b79ea2de486e9e2485a6f8b66a21b4fb0a
   languageName: node
   linkType: hard
 
@@ -8791,6 +8831,18 @@ __metadata:
     parent-module: ^1.0.0
     resolve-from: ^4.0.0
   checksum: 2cacfad06e652b1edc50be650f7ec3be08c5e5a6f6d12d035c440a42a8cc028e60a5b99ca08a77ab4d6b1346da7d971915828f33cdab730d3d42f08242d09baa
+  languageName: node
+  linkType: hard
+
+"import-in-the-middle@npm:1.4.1":
+  version: 1.4.1
+  resolution: "import-in-the-middle@npm:1.4.1"
+  dependencies:
+    acorn: ^8.8.2
+    acorn-import-assertions: ^1.9.0
+    cjs-module-lexer: ^1.2.2
+    module-details-from-path: ^1.0.3
+  checksum: 39cf8ba24f660dfd7f57cd871ea39b0162cb80d6fefd9150988b8836e50c3c64d9ea8793777f631730de929e90d8bd5cf18bcb65338d05e810c8d26075cddb26
   languageName: node
   linkType: hard
 
@@ -12710,6 +12762,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"require-in-the-middle@npm:^7.1.1":
+  version: 7.2.0
+  resolution: "require-in-the-middle@npm:7.2.0"
+  dependencies:
+    debug: ^4.1.1
+    module-details-from-path: ^1.0.3
+    resolve: ^1.22.1
+  checksum: 5ed219d12aec4d0f098029827f9e929d8e0ca4f2fe01f23a9b02169e57c5157cced9e7acaef6a871d3f56646f2cb807b08f2f23d66912ee53eca16cb88eff743
+  languageName: node
+  linkType: hard
+
 "require-main-filename@npm:^2.0.0":
   version: 2.0.0
   resolution: "require-main-filename@npm:2.0.0"
@@ -13022,6 +13085,17 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.5.1":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
   languageName: node
   linkType: hard
 
